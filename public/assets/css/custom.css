@@ -1,0 +1,24 @@
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 40px;
+  }
+  .logo2 {
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .menu-item {
+    padding: 0.5rem 0 !important;
+  }
+  .dark-sidebar .logo,
+  .dark-sidebar .logo2 {
+    color: white;
+  }
+  .light-sidebar .logo,
+  .light-sidebar .logo2 {
+    color: var(--bs-app-sidebar-light-menu-link-color);
+  }
